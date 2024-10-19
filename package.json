@@ -1,13 +1,29 @@
 {
-  "name": "fostplus-api-wrapper",
+  "name": "@leventhan/fostplus-api-wrapper",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
     "test": "jest"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leventhan/fostplus-api-wrapper.git"
+  },
+  "keywords": [
+    "fostplus",
+    "api",
+    "wrapper",
+    "typescript",
+    "icalendar",
+    "ics",
+    "trash collection"
+  ],
   "author": "LeventHAN <contact@leventhan.info> (https://leventhan.info)",
   "license": "MIT",
   "description": "Wrapper for fostplus API",
