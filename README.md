@@ -1,7 +1,8 @@
 # FostPlus API Wrapper
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b4fd41aa99244883918bdb4abaf5458f)](https://app.codacy.com/gh/LeventHAN/fostplus-api-wrapper/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![Tests Pass](https://github.com/LeventHAN/fostplus-api-wrapper/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/LeventHAN/fostplus-api-wrapper/actions/workflows/test.yml)
+[![Daily Test](https://github.com/LeventHAN/fostplus-api-wrapper/actions/workflows/test.yml/badge.svg)](https://github.com/LeventHAN/fostplus-api-wrapper/actions/workflows/test.yml)
+
 
 A TypeScript wrapper for the Fost Plus API, providing methods to access waste collection data and generate iCalendar files.
 
