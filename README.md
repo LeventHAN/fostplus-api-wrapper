@@ -16,9 +16,7 @@ npm install @leventhan/fostplus-api-wrapper
 import FostPlusAPI from 'fostplus-api-wrapper';
 
 const api = new FostPlusAPI({
-  xConsumer: process.env.CONSUMER_UNIQUE_KEY || 'your_consumer_id',
-  xAppVersion: process.env.APP_VERSION || '1.0.0',
-  xAppOs: process.env.APP_OS || 'Web',
+  xConsumer: process.env.CONSUMER_UNIQUE_KEY || 'your_consumer_id', // should be obtained from Fostplus itself however since this field is publicly available you can scrape the web for it (or my tests)
 });
 
 // Example usage
